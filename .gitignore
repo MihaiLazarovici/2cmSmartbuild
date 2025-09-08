@@ -36,3 +36,8 @@ yarn-error.*
 # iOS & Android
 ios/
 android/
+.idea/
+*.msi
+nvm-setup.exe
+1.2.3
+eslintrc.js
