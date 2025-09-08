@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
+    "@expo/metro-runtime": "~5.0.4",
     "@expo/react-native-action-sheet": "^4.1.1",
     "@expo/vector-icons": "^14.1.0",
     "@gorhom/bottom-sheet": "^5",
@@ -131,5 +132,11 @@
   "patchedDependencies": {
     "react-native@0.79.2": "patches/react-native@0.79.2.patch",
     "expo-asset@11.1.5": "patches/expo-asset@11.1.5.patch"
-  }
+  },
+  "patchedDependencies": {
+    "react-native@0.79.2": "patches/react-native@0.79.2.patch",
+    "expo-asset@11.1.5": "patches/expo-asset@11.1.5.patch"
+  },
+  "packageManager": "npm@10.8.2"
+}
 }
